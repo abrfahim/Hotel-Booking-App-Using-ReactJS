@@ -1,0 +1,134 @@
+.header{
+    background-color: rgb(2, 6, 84);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+.headerContainer.listMode{
+    margin: 20px 0px 0px 0px;
+}
+
+.headerList{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItem.active{
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.headerDescription{
+    margin: 20px 0px;
+}
+
+.headerBtn{
+    background-color: rgb(1, 1, 87);
+    color: whitesmoke;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid rgb(233, 91, 10);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerIcon{
+    color: lightslategray;
+}
+
+.headerSearchItem{
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+    cursor: pointer;
+}
+
+.headerSearchInput{
+    border: 0.5px solid orange;
+    outline: none;
+}
+
+.headerSearchText{
+    color: gray;
+    cursor: pointer;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.options{
+    position: absolute;
+    top: 50px;
+    background-color: whitesmoke;
+    color: gray;
+    border: 1px solid orange;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+    padding: 5px;
+}
+
+.optionCounter{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 15px;
+    color: rgb(1, 1, 84);
+}
+
+.optionCounterButton{
+    width: 25x;
+    height: 25px;
+    border: 1px solid gray;
+    color: rgb(1, 1, 68);
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.optionCounterButton:disabled{
+    cursor: not-allowed;
+}
+
+.optionCounterButton{
+    cursor: pointer;
+}
